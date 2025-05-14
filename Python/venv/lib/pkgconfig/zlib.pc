@@ -1,0 +1,13 @@
+prefix=/Users/vaibhavkale/ML Learnings/Python/venv
+exec_prefix=/Users/vaibhavkale/ML Learnings/Python/venv
+libdir=/Users/vaibhavkale/ML Learnings/Python/venv/lib
+sharedlibdir=/Users/vaibhavkale/ML Learnings/Python/venv/lib
+includedir=/Users/vaibhavkale/ML Learnings/Python/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
